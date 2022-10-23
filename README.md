@@ -39,7 +39,8 @@ recipe_id should be passed as a req.params.recipe_id
 ```
 {
     "_id":{"$oid":"6355506aea726aea1dea47f9"},
-    "feedback_id":"3","user_id":"3",
+    "feedback_id":"3",
+    "user_id":"3",
     "recipe_id":"1",
     "comment":"This formula is working so well, easy and delicious.",
     "sentiment":"positive"
