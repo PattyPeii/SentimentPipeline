@@ -1,5 +1,7 @@
 # SentimentPipeline
 
+This repo is merely a decoration for our project in order to make it more interesting and to properly utilize rabbitmq.
+
 ## To deploy ml sevice
 
 Note: This service is not unlimit, we have only 500 requests per month.
