@@ -1,5 +1,9 @@
 # SentimentPipeline
 
+**_TLDR;_** Do a sentiment analysis on a comment --> categorize it as **positive** or **negative**.
+
+This repo is merely a decoration for our project in order to make it more interesting and to properly utilize rabbitmq.
+
 ## To deploy ml sevice
 
 Note: This service is not unlimit, we have only 500 requests per month.
@@ -35,7 +39,8 @@ recipe_id should be passed as a req.params.recipe_id
 ```
 {
     "_id":{"$oid":"6355506aea726aea1dea47f9"},
-    "feedback_id":"3","user_id":"3",
+    "feedback_id":"3",
+    "user_id":"3",
     "recipe_id":"1",
     "comment":"This formula is working so well, easy and delicious.",
     "sentiment":"positive"
