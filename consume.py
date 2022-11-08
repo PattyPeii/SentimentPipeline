@@ -6,7 +6,7 @@ from config import config
 from core import run_sentiment
 
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host=config["host"]))
+    pika.URLParameters(config["host"]))
 channel = connection.channel()
 
 channel.exchange_declare(exchange='direct_logs', exchange_type='direct')
